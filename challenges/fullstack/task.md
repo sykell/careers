@@ -87,3 +87,30 @@ Build a web application that accepts a website URL as input, crawls it and displ
 1. Create a **public GitHub repository** and commit your code there.
 2. Include a **README.md** with clear instructions to build and run your application.
 3. Email the repository link to **[careers@sykell.com](mailto:careers@sykell.com)**.
+
+
+# Evaluation criteria (scorecard)
+
+| **Criterion**                      | **Description**                                                                    | **Weight** | **Score (1–5)** | **Weighted Score** | **Comments** |
+|------------------------------------|------------------------------------------------------------------------------------|-----------:|----------------:|-------------------:|--------------|
+| **1. Front-End Implementation**    |                                                                                    |        25% |                 |                    |              |
+| • React & TypeScript Quality       | Clarity, modularity, use of hooks, TS typing discipline                            |        10% |                 |                    |              |
+| • Responsiveness & UX              | Works on mobile & desktop; polished, accessible UI                                 |         8% |                 |                    |              |
+| • Testing (happy paths)            | Coverage of core flows; meaningful assertions                                      |         7% |                 |                    |              |
+| **2. Back-End Implementation**     |                                                                                    |        20% |                 |                    |              |
+| • Go Code Quality                  | Readability, error handling, idiomatic use of Go                                   |         8% |                 |                    |              |
+| • MySQL Schema & Data Access       | Logical schema design; safe queries; migrations or seed scripts                    |         6% |                 |                    |              |
+| • Reproducible Builds              | Vendoring/packaging consistency (e.g. modules, Dockerfile)                         |         6% |                 |                    |              |
+| **3. Core Features**               |                                                                                    |        25% |                 |                    |              |
+| • URL Ingestion & Crawl Control    | Add URLs, start/stop processing                                                    |         5% |                 |                    |              |
+| • Data Collection Accuracy         | Correct detection of HTML version, headings, link counts, login form, broken links |        10% |                 |                    |              |
+| • Authorized API Calls             | Proper auth mechanism in requests                                                  |         5% |                 |                    |              |
+| • Real-Time Status Updates         | Working status indicators (polling or push)                                        |         5% |                 |                    |              |
+| **4. Dashboard & Details View**    |                                                                                    |        20% |                 |                    |              |
+| • Table: Sort, Pagination, Filters | Stable, fast, intuitive grid with sorting, paging, column filters, global search   |         8% |                 |                    |              |
+| • Detail Page Charts & Reports     | Clear, accurate bar/donut chart and broken-links list                              |         7% |                 |                    |              |
+| • Bulk Actions                     | Re-run and delete selections via checkboxes                                        |         5% |                 |                    |              |
+| **5. Documentation & Setup**       |                                                                                    |        10% |                 |                    |              |
+| • README & Run Instructions        | Completeness and clarity of setup steps                                            |         5% |                 |                    |              |
+| • Code Organization & Comments     | Logical project structure, helpful inline comments, small isolated commits         |         5% |                 |                    |              |
+| **TOTAL**                          |                                                                                    |       100% |                 |                    |              |
