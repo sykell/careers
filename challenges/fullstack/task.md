@@ -34,7 +34,8 @@ We will evaluate your submission on:
 
     * Reproducible builds (use your preferred vendoring/packaging system)
     * Consistent error handling and reporting (no crashes under non-critical conditions)
-    * API request to backend must use authorization mechanism.
+    * API request to backend must use authorization mechanism
+    * Show a chain of commits representing project progression, including initial scaffolding, incremental feature additions, and any refactoring steps
     * Automated front-end tests covering few happy-path scenarios
     * Total implementation time should not exceed 8 hours (feel free to spread this across multiple days)
 
