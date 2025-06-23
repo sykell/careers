@@ -85,7 +85,7 @@ Build a web application that accepts a website URL as input, crawls it and displ
 # How to submit test task
 
 1. Create a **public GitHub repository** and commit your code there.
-2. Include a **README.md** with clear instructions to build and run your application.
+2. Include a **README.md** with clear instructions how to build and run your application.
 3. Email the repository link to **[careers@sykell.com](mailto:careers@sykell.com)**.
 
 
