@@ -40,3 +40,4 @@ Your goal is to:
 
 - Assume this is a greenfield project, and you can shape key decisions.	
 - This is not about perfect code or wireframes: we’re looking for your approach, prioritization, and leadership.
+- Google doc, markdown files within public github repo, or similar formats are acceptable for submission.
